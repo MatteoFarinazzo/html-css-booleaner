@@ -1,8 +1,11 @@
 
-/* Reset Css */
 
 .bg-blue{
     background-color: lightskyblue;
+}
+
+#logo{
+    width: 200px;
 }
 
 .title-HP{
@@ -18,6 +21,9 @@ h1{
     font-size:200%
 }
 
+.lg-text{
+    color: lightslategray;
+}
 .sm-font{
     font-size: small;
 
