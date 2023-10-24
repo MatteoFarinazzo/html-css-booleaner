@@ -1,12 +1,41 @@
 
 /* Reset Css */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .title-HP{
     text-align: center;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/*tabella */
+
+table {
+    width: 100%
+    
+}
+
+thead{
+    background-color: rgb(105, 160, 231);
+    
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #bacbdf}
+  
+  footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(63, 46, 214);
+    text-align: center;
+}
+
+.text-white{
+    color:antiquewhite
 }
