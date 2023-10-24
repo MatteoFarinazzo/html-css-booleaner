@@ -9,7 +9,9 @@
 /* testo centrale */ 
 
 .bg-blue{
+    background-image: url(./img/logo.svg);
     background-color: lightskyblue;
+    height: 80px;
 }
 
 #logo{
