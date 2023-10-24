@@ -1,6 +1,10 @@
 
 /* Reset Css */
 
+.bg-blue{
+    background-color: lightskyblue;
+}
+
 .title-HP{
     text-align: center;
 }
@@ -13,8 +17,8 @@ main {
 /*tabella */
 
 table {
-    width: 100%
-    
+    width: 100%;
+    table-layout:fixed;
 }
 
 thead{
