@@ -1,4 +1,12 @@
 
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* testo centrale */ 
 
 .bg-blue{
     background-color: lightskyblue;
@@ -18,14 +26,29 @@ main {
 }
 
 h1{
-    font-size:200%
+    font-size:200%;
+    margin-top: 40px;
+}
+
+ul{
+    margin:20px
 }
 
 .lg-text{
     color: lightslategray;
+    margin-top: 0%;
+    margin-bottom: 20px;
 }
+
+#cen-text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 .sm-font{
     font-size: small;
+    margin-top: 0%;
 
 }
 
@@ -36,6 +59,8 @@ h1{
 table {
     width: 100%;
     table-layout:fixed;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 thead{
