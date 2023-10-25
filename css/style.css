@@ -8,10 +8,11 @@
 
 /* testo centrale */ 
 
-.bg-blue{
+#main-header-page{
     background-image: url(../img/pattern.png);
     background-color: lightskyblue;
-    background-repeat:inherit;
+    background-size: 400px;
+    background-repeat:repeat;
     height: 100px;
 }
 
@@ -78,15 +79,22 @@ td {
     padding: 8px;
   }
   
-  tr:nth-child(even){background-color: #bacbdf}
+th{
+    text-align: left;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #bacbdf;
+}
   
-  footer {
+/*footer*/
+
+footer {
     width: 100%;
     height: 40px;
     margin: 0 auto;
     background-color: rgb(63, 46, 214);
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .text-white{
@@ -94,3 +102,32 @@ td {
     padding: 10px;
 
 }
+
+@media (max-width: 768px) {
+
+    main{
+        width: 100%;
+    }
+
+    footer{
+        width:100%
+    }
+    
+    h1{font-size: 30px;}
+    
+    #tim-photo1{
+        height: 300px;
+        object-fit: cover;
+    }
+
+    #tim-photo2{
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    header{
+        width:max-content
+    }
+    
+    }
+    
